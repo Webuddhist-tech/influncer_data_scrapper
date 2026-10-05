@@ -1,0 +1,275 @@
+date,creator_name,url,reason,stage
+2026-10-05,Tenzing Sherpa,https://linktr.ee/n7qsdgf7f8,empty or dead bio-link page,extract-links
+2026-10-05,Garab Dorjee Sherpa,linktr.ee/Garabdorjee,page fetch failed: request to linktr.ee/Garabdorjee failed: Invalid URL 'linktr.ee/Garabdorjee': No scheme supplied. Perhaps you meant https://linktr.ee/Garabdorjee?,extract-links
+2026-10-05,Lopon Jurmay Karma,https://www.facebook.com/share/18BZdkZtPi/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Chhewang Dorjee,https://www.facebook.com/Tsewang Dorjee,facebook: invalid page name 'Tsewang Dorjee',extract-links
+2026-10-05,Chhewang Dorjee,https://www.facebook.com/share/16pAmPKWxY/,facebook: content path /share,extract-links
+2026-10-05,Chhewang Dorjee,https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Nishchal Pakhrin (Ani yangchen Drolma),https://www.facebook.com/share/1AQ2zYiJvT/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Tashi Lhamo A,https://www.instagram.com/Tashi lamo,instagram: invalid username 'Tashi lamo',extract-links
+2026-10-05,Chow Tze Jen,https://www.facebook.com/share/18HuvYNfrU/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Pranav Subhash Dandge,https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Yash Dixit,https://www.facebook.com/share/1D47kcVUBT/,facebook: content path /share,extract-links
+2026-10-05,Bharat nakwal,https://www.facebook.com/Universityofbuddha/about/?id=61554997532561&sk=about,facebook: extra path segment /about,extract-links
+2026-10-05,Bharat nakwal,https://www.facebook.com/Universityofbuddha/about/?id=61554997532561\u0026sk=about,facebook: extra path segment /about,extract-links
+2026-10-05,Gabriel Kobler,https://www.facebook.com/share/1Bz3aGXfNB,facebook: content path /share,extract-links
+2026-10-05,Aditi Patwari,https://www.instagram.com/p/DPQBYeKCGyb/?igsh=ZWpzNGl4aHUxNHZt,instagram: content path /p,extract-links
+2026-10-05,Path of Liberation [ Norbu Tsering,https://www.facebook.com/share/1Ap6N9gVy5/,facebook: content path /share,extract-links
+2026-10-05,Uttam Shetty (Nagaloka Center Nagpur),https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Rajat Mourya,https://youtu.be/fa7Elkoleis?si=1LGllHw2CsvN_m2o,youtube: content path /watch,extract-links
+2026-10-05,SANTOSH SAKHARAM AMBHORE,https://www.facebook.com/share/14R9Q7M5VmK/,facebook: content path /share,extract-links
+2026-10-05,Siddharth Negi,https://www.facebook.com/share/1QV8PKVBwV/,facebook: content path /share,extract-links
+2026-10-05,Dorje kalzang,https://www.facebook.com/share/16gmhDJ3bF,facebook: content path /share,extract-links
+2026-10-05,Dorje kalzang,https://www.facebook.com/share/1AEoWDdeqd/,facebook: content path /share,extract-links
+2026-10-05,Siddharth Shivnarayan Misal,https://www.facebook.com/share/17FoMotdwA/,facebook: content path /share,extract-links
+2026-10-05,Pratibha Patil,https://www.facebook.com/Pratibha S. Patil,facebook: invalid page name 'Pratibha S. Patil',extract-links
+2026-10-05,tenpunlama (Tenzin Phuntsok),https://www.facebook.com/share/17yCYdYvD8/,facebook: content path /share,extract-links
+2026-10-05,Tashi Nyima,https://www.facebook.com/share/1EobbJWayJ/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Tibet Dr shakya (karma gyedun),https://www.facebook.com/share/1Gc3NTwesq/,facebook: content path /share,extract-links
+2026-10-05,nawang dechen kc,https://www.facebook.com/share/18GKt7snkA/,facebook: content path /share,extract-links
+2026-10-05,Arun Sonune,https://www.facebook.com/share/16Qqa2P5n8/,facebook: content path /share,extract-links
+2026-10-05,Tenzin Pema / Tenzin Choney,https://www.facebook.com/share/16sRBJGpWf/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Akshay Khobragade,https://www.facebook.com/share/1AHjkkqteJ/,facebook: content path /share,extract-links
+2026-10-05,Akshay Khobragade,https://www.threads.com/weekontrip.vlogs,threads: /weekontrip.vlogs is not an @username,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/WSO5uKPgkRo,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/MPmq1J2RYgA,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/kB64WN8jrOo,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/mNNYu9cRcRc,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/M5O4yJuDLxk,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/j85EHdgEKjQ,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=NURzCqmtxQY&t=2s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=Jc7Z2hkxbFg,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=YMTn6o236c0&t=20s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=VLjhGZZKQnc,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=3waxam1N6MQ&t=50s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=NURzCqmtxQY\u0026t=2s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=YMTn6o236c0\u0026t=20s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=3waxam1N6MQ\u0026t=50s,youtube: content path /watch,extract-links
+2026-10-05,Karma Yonten,https://www.facebook.com/share/1ATKodNs3W/,facebook: content path /share,extract-links
+2026-10-05,CHIMI TSHERING,https://www.facebook.com/share/1AJJchMMi2/,facebook: content path /share,extract-links
+2026-10-05,Gangkar Metok,https://www.facebook.com/gangkar metok,facebook: invalid page name 'gangkar metok',extract-links
+2026-10-05,Tenzin Rabga,https://www.facebook.com/share/17uoc71PQa/?,facebook: content path /share,extract-links
+2026-10-05,Kelzang Wangdi,https://www.facebook.com/share/1ZTszEuxDc/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Sonam Choden,https://www.facebook.com/share/1R9FbBBuRB/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Sonam Choden,https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Pathum Ranasinghe Arachchilage,https://www.facebook.com/share/1GXo2yhUwC/,facebook: content path /share,extract-links
+2026-10-05,Kunzes Dolma,https://www.facebook.com/share/1HW7BY7Y33/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Kunzes Dolma,https://www.facebook.com/share/1AH3MNEB3U/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Achesh Kamble,https://www.facebook.com/share/1AXV4cwYQS/,facebook: content path /share,extract-links
+2026-10-05,Ogyen Tenzin,https://www.facebook.com/share/1G2RAkF7Tb/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Sagar Gautam,https://www.facebook.com/share/1GNsgaPLYe/,facebook: content path /share,extract-links
+2026-10-05,Robin Chakma(Brahma Dutta),https://www.facebook.com/share/1FrRimU1Sd/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Tenzing Sherpa,https://linktr.ee/n7qsdgf7f8,empty or dead bio-link page,extract-links
+2026-10-05,Lopon Jurmay Karma,https://www.facebook.com/share/18BZdkZtPi/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Chhewang Dorjee,https://www.facebook.com/Tsewang Dorjee,facebook: invalid page name 'Tsewang Dorjee',extract-links
+2026-10-05,Chhewang Dorjee,https://www.facebook.com/share/16pAmPKWxY/,facebook: content path /share,extract-links
+2026-10-05,Chhewang Dorjee,https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Nishchal Pakhrin (Ani yangchen Drolma),https://www.facebook.com/share/1AQ2zYiJvT/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Tashi Lhamo A,https://www.instagram.com/Tashi lamo,instagram: invalid username 'Tashi lamo',extract-links
+2026-10-05,Chow Tze Jen,https://www.facebook.com/share/18HuvYNfrU/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Pranav Subhash Dandge,https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Yash Dixit,https://www.facebook.com/share/1D47kcVUBT/,facebook: content path /share,extract-links
+2026-10-05,Bharat nakwal,https://www.facebook.com/Universityofbuddha/about/?id=61554997532561&sk=about,facebook: extra path segment /about,extract-links
+2026-10-05,Bharat nakwal,https://www.facebook.com/Universityofbuddha/about/?id=61554997532561\u0026sk=about,facebook: extra path segment /about,extract-links
+2026-10-05,Gabriel Kobler,https://www.facebook.com/share/1Bz3aGXfNB,facebook: content path /share,extract-links
+2026-10-05,Aditi Patwari,https://www.instagram.com/p/DPQBYeKCGyb/?igsh=ZWpzNGl4aHUxNHZt,instagram: content path /p,extract-links
+2026-10-05,Path of Liberation [ Norbu Tsering,https://www.facebook.com/share/1Ap6N9gVy5/,facebook: content path /share,extract-links
+2026-10-05,Uttam Shetty (Nagaloka Center Nagpur),https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Rajat Mourya,https://youtu.be/fa7Elkoleis?si=1LGllHw2CsvN_m2o,youtube: content path /watch,extract-links
+2026-10-05,SANTOSH SAKHARAM AMBHORE,https://www.facebook.com/share/14R9Q7M5VmK/,facebook: content path /share,extract-links
+2026-10-05,Siddharth Negi,https://www.facebook.com/share/1QV8PKVBwV/,facebook: content path /share,extract-links
+2026-10-05,Dorje kalzang,https://www.facebook.com/share/16gmhDJ3bF,facebook: content path /share,extract-links
+2026-10-05,Dorje kalzang,https://www.facebook.com/share/1AEoWDdeqd/,facebook: content path /share,extract-links
+2026-10-05,Siddharth Shivnarayan Misal,https://www.facebook.com/share/17FoMotdwA/,facebook: content path /share,extract-links
+2026-10-05,Pratibha Patil,https://www.facebook.com/Pratibha S. Patil,facebook: invalid page name 'Pratibha S. Patil',extract-links
+2026-10-05,tenpunlama (Tenzin Phuntsok),https://www.facebook.com/share/17yCYdYvD8/,facebook: content path /share,extract-links
+2026-10-05,Tashi Nyima,https://www.facebook.com/share/1EobbJWayJ/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Tibet Dr shakya (karma gyedun),https://www.facebook.com/share/1Gc3NTwesq/,facebook: content path /share,extract-links
+2026-10-05,nawang dechen kc,https://www.facebook.com/share/18GKt7snkA/,facebook: content path /share,extract-links
+2026-10-05,Arun Sonune,https://www.facebook.com/share/16Qqa2P5n8/,facebook: content path /share,extract-links
+2026-10-05,Tenzin Pema / Tenzin Choney,https://www.facebook.com/share/16sRBJGpWf/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Akshay Khobragade,https://www.facebook.com/share/1AHjkkqteJ/,facebook: content path /share,extract-links
+2026-10-05,Akshay Khobragade,https://www.threads.com/weekontrip.vlogs,threads: /weekontrip.vlogs is not an @username,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/WSO5uKPgkRo,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/MPmq1J2RYgA,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/kB64WN8jrOo,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/mNNYu9cRcRc,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/M5O4yJuDLxk,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/j85EHdgEKjQ,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=NURzCqmtxQY&t=2s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=Jc7Z2hkxbFg,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=YMTn6o236c0&t=20s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=VLjhGZZKQnc,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=3waxam1N6MQ&t=50s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=NURzCqmtxQY\u0026t=2s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=YMTn6o236c0\u0026t=20s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=3waxam1N6MQ\u0026t=50s,youtube: content path /watch,extract-links
+2026-10-05,Karma Yonten,https://www.facebook.com/share/1ATKodNs3W/,facebook: content path /share,extract-links
+2026-10-05,CHIMI TSHERING,https://www.facebook.com/share/1AJJchMMi2/,facebook: content path /share,extract-links
+2026-10-05,Gangkar Metok,https://www.facebook.com/gangkar metok,facebook: invalid page name 'gangkar metok',extract-links
+2026-10-05,Tenzin Rabga,https://www.facebook.com/share/17uoc71PQa/?,facebook: content path /share,extract-links
+2026-10-05,Kelzang Wangdi,https://www.facebook.com/share/1ZTszEuxDc/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Sonam Choden,https://www.facebook.com/share/1R9FbBBuRB/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Sonam Choden,https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Pathum Ranasinghe Arachchilage,https://www.facebook.com/share/1GXo2yhUwC/,facebook: content path /share,extract-links
+2026-10-05,Kunzes Dolma,https://www.facebook.com/share/1HW7BY7Y33/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Kunzes Dolma,https://www.facebook.com/share/1AH3MNEB3U/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Achesh Kamble,https://www.facebook.com/share/1AXV4cwYQS/,facebook: content path /share,extract-links
+2026-10-05,Ogyen Tenzin,https://www.facebook.com/share/1G2RAkF7Tb/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Sagar Gautam,https://www.facebook.com/share/1GNsgaPLYe/,facebook: content path /share,extract-links
+2026-10-05,Robin Chakma(Brahma Dutta),https://www.facebook.com/share/1FrRimU1Sd/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Tenzing Sherpa,https://linktr.ee/n7qsdgf7f8,empty or dead bio-link page,extract-links
+2026-10-05,Lopon Jurmay Karma,https://www.facebook.com/share/18BZdkZtPi/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Chhewang Dorjee,https://www.facebook.com/Tsewang Dorjee,facebook: invalid page name 'Tsewang Dorjee',extract-links
+2026-10-05,Chhewang Dorjee,https://www.facebook.com/share/16pAmPKWxY/,facebook: content path /share,extract-links
+2026-10-05,Chhewang Dorjee,https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Nishchal Pakhrin (Ani yangchen Drolma),https://www.facebook.com/share/1AQ2zYiJvT/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Tashi Lhamo A,https://www.instagram.com/Tashi lamo,instagram: invalid username 'Tashi lamo',extract-links
+2026-10-05,Chow Tze Jen,https://www.facebook.com/share/18HuvYNfrU/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Pranav Subhash Dandge,https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Yash Dixit,https://www.facebook.com/share/1D47kcVUBT/,facebook: content path /share,extract-links
+2026-10-05,Bharat nakwal,https://www.facebook.com/Universityofbuddha/about/?id=61554997532561&sk=about,facebook: extra path segment /about,extract-links
+2026-10-05,Bharat nakwal,https://www.facebook.com/Universityofbuddha/about/?id=61554997532561\u0026sk=about,facebook: extra path segment /about,extract-links
+2026-10-05,Gabriel Kobler,https://www.facebook.com/share/1Bz3aGXfNB,facebook: content path /share,extract-links
+2026-10-05,Aditi Patwari,https://www.instagram.com/p/DPQBYeKCGyb/?igsh=ZWpzNGl4aHUxNHZt,instagram: content path /p,extract-links
+2026-10-05,Path of Liberation [ Norbu Tsering,https://www.facebook.com/share/1Ap6N9gVy5/,facebook: content path /share,extract-links
+2026-10-05,Uttam Shetty (Nagaloka Center Nagpur),https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Rajat Mourya,https://youtu.be/fa7Elkoleis?si=1LGllHw2CsvN_m2o,youtube: content path /watch,extract-links
+2026-10-05,SANTOSH SAKHARAM AMBHORE,https://www.facebook.com/share/14R9Q7M5VmK/,facebook: content path /share,extract-links
+2026-10-05,Siddharth Negi,https://www.facebook.com/share/1QV8PKVBwV/,facebook: content path /share,extract-links
+2026-10-05,Dorje kalzang,https://www.facebook.com/share/16gmhDJ3bF,facebook: content path /share,extract-links
+2026-10-05,Dorje kalzang,https://www.facebook.com/share/1AEoWDdeqd/,facebook: content path /share,extract-links
+2026-10-05,Siddharth Shivnarayan Misal,https://www.facebook.com/share/17FoMotdwA/,facebook: content path /share,extract-links
+2026-10-05,Pratibha Patil,https://www.facebook.com/Pratibha S. Patil,facebook: invalid page name 'Pratibha S. Patil',extract-links
+2026-10-05,tenpunlama (Tenzin Phuntsok),https://www.facebook.com/share/17yCYdYvD8/,facebook: content path /share,extract-links
+2026-10-05,Tashi Nyima,https://www.facebook.com/share/1EobbJWayJ/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Tibet Dr shakya (karma gyedun),https://www.facebook.com/share/1Gc3NTwesq/,facebook: content path /share,extract-links
+2026-10-05,nawang dechen kc,https://www.facebook.com/share/18GKt7snkA/,facebook: content path /share,extract-links
+2026-10-05,Arun Sonune,https://www.facebook.com/share/16Qqa2P5n8/,facebook: content path /share,extract-links
+2026-10-05,Tenzin Pema / Tenzin Choney,https://www.facebook.com/share/16sRBJGpWf/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Akshay Khobragade,https://www.facebook.com/share/1AHjkkqteJ/,facebook: content path /share,extract-links
+2026-10-05,Akshay Khobragade,https://www.threads.com/weekontrip.vlogs,threads: /weekontrip.vlogs is not an @username,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/WSO5uKPgkRo,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/MPmq1J2RYgA,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/kB64WN8jrOo,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/mNNYu9cRcRc,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/M5O4yJuDLxk,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/shorts/j85EHdgEKjQ,youtube: content path /shorts,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=NURzCqmtxQY&t=2s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=Jc7Z2hkxbFg,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=YMTn6o236c0&t=20s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=VLjhGZZKQnc,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=3waxam1N6MQ&t=50s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=NURzCqmtxQY\u0026t=2s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=YMTn6o236c0\u0026t=20s,youtube: content path /watch,extract-links
+2026-10-05,Laxmikanta Sunil Mane,https://www.youtube.com/watch?v=3waxam1N6MQ\u0026t=50s,youtube: content path /watch,extract-links
+2026-10-05,Karma Yonten,https://www.facebook.com/share/1ATKodNs3W/,facebook: content path /share,extract-links
+2026-10-05,CHIMI TSHERING,https://www.facebook.com/share/1AJJchMMi2/,facebook: content path /share,extract-links
+2026-10-05,Gangkar Metok,https://www.facebook.com/gangkar metok,facebook: invalid page name 'gangkar metok',extract-links
+2026-10-05,Tenzin Rabga,https://www.facebook.com/share/17uoc71PQa/?,facebook: content path /share,extract-links
+2026-10-05,Kelzang Wangdi,https://www.facebook.com/share/1ZTszEuxDc/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Sonam Choden,https://www.facebook.com/share/1R9FbBBuRB/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Sonam Choden,https://www.threads.com/threads.com,threads: /threads.com is not an @username,extract-links
+2026-10-05,Pathum Ranasinghe Arachchilage,https://www.facebook.com/share/1GXo2yhUwC/,facebook: content path /share,extract-links
+2026-10-05,Kunzes Dolma,https://www.facebook.com/share/1HW7BY7Y33/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Kunzes Dolma,https://www.facebook.com/share/1AH3MNEB3U/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Achesh Kamble,https://www.facebook.com/share/1AXV4cwYQS/,facebook: content path /share,extract-links
+2026-10-05,Ogyen Tenzin,https://www.facebook.com/share/1G2RAkF7Tb/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Sagar Gautam,https://www.facebook.com/share/1GNsgaPLYe/,facebook: content path /share,extract-links
+2026-10-05,Robin Chakma(Brahma Dutta),https://www.facebook.com/share/1FrRimU1Sd/?mibextid=wwXIfr,facebook: content path /share,extract-links
+2026-10-05,Tsering Wangdi (21 yr),https://linktr.ee/twangdi794,page had links but none were recognized social platform profiles,extract-links
+2026-10-05,Dorje lama,https://linktr.ee/Dorjelama,page had links but none were recognized social platform profiles,extract-links
+2026-10-05,Garab Dorjee Sherpa,https://linktr.ee/Garabdorjee,page had links but none were recognized social platform profiles,extract-links
+2026-10-05,Ven Godamune Chullanaga Thero,https://linktr.ee/bhantechulla,page had links but none were recognized social platform profiles,extract-links
+2026-10-05,Rajender Kumar (Deer Park),https://linktr.ee/rajender.deerpark,page had links but none were recognized social platform profiles,extract-links
+2026-10-05,Beri Gyalse,https://linktr.ee/beripaldengyal,page had links but none were recognized social platform profiles,extract-links
+2026-10-05,Bhaskar Nathu Salve (Pradnyaratna Kamalavira),https://linktr.ee/kamalavira,page had links but none were recognized social platform profiles,extract-links
+2026-10-05,Budhi Singh (Trilok) (Deer park),https://linktr.ee/trilockk,page had links but none were recognized social platform profiles,extract-links
+2026-10-05,Kesang Butit,https://linktr.ee/Kes.B,page had links but none were recognized social platform profiles,extract-links
+2026-10-05,Jamyang Choden,https://linktr.ee/jchoden611,page had links but none were recognized social platform profiles,extract-links
+2026-10-05,Vidyadhar Dr Gaikwad,https://linktr.ee/vtd7jdb8vk,page had links but none were recognized social platform profiles,extract-links
+2026-10-05,Chhewang Dorjee,https://youtube.com/@mgm tsewang dorjee,error,extract-social
+2026-10-05,Chhewang Dorjee,https://youtube.com/@mgm,error,extract-social
+2026-10-05,Bharat nakwal,https://youtube.com/@bharatnakwalworld,error,extract-social
+2026-10-05,Suresh Kumar,https://youtube.com/@wlbsnew,error,extract-social
+2026-10-05,Thile Dorje Lama,https://youtube.com/@bhaithile,error,extract-social
+2026-10-05,Thile Dorje Lama,https://youtube.com/@bhaithinle,error,extract-social
+2026-10-05,Arun Sonune,https://youtube.com/@arunsonune-m1i,error,extract-social
+2026-10-05,CHIMI TSHERING,https://youtube.com/@born-to-die-1999,error,extract-social
+2026-10-05,DIKI LHAMU SHERPA,https://youtube.com/@dikila5848,error,extract-social
+2026-10-05,Kunzes Dolma,https://youtube.com/@kunzesrablampa94,error,extract-social
+2026-10-05,Penpa Tsering,https://youtube.com/@penpatsering5591,error,extract-social
+2026-10-05,Aman Kumar Verma,https://youtube.com/@gayabeatsofficial,error,extract-social
+2026-10-05,Aman Kumar Verma,https://youtube.com/@gayabeatsoffical,error,extract-social
+2026-10-05,Nishchal Pakhrin (Ani yangchen Drolma),https://tiktok.com/@aniyangchendolma,error,extract-social
+2026-10-05,nawang dechen kc,https://tiktok.com/@sweetfamily136,error,extract-social
+2026-10-05,Karma Chimmi Wangmo,https://tiktok.com/@bhutanmindfulness,error,extract-social
+2026-10-05,Tshering Penjor,https://tiktok.com/@tsheringpenjor98,error,extract-social
+2026-10-05,Karma Yonten,https://tiktok.com/@themaroonpotatovlog,error,extract-social
+2026-10-05,Sonam Choden,https://tiktok.com/@thevintagesoul1311,error,extract-social
+2026-10-05,Nishchal Pakhrin (Ani yangchen Drolma),https://tiktok.com/@aniyangchendolma,not-found,extract-social
+2026-10-05,Sonam Choden,https://threads.net/@sonam_128282,private,extract-social
+2026-10-05,Uttam Shetty (Nagaloka Center Nagpur),https://x.com/nagalokacenter,error,extract-social
+2026-10-05,Rajat Mourya,https://x.com/Therajatmourya,error,extract-social
+2026-10-05,Suresh Kumar,https://x.com/wlbsnews,error,extract-social
+2026-10-05,Gyalpo Tashi,https://x.com/gyalphur,error,extract-social
+2026-10-05,Aditi Patwari,https://linkedin.com/company/mindful-gatherings-ae,not-found,extract-social
+2026-10-05,Bhuchung Kata (Kalsang Tashi),https://facebook.com/bhuchungkata,not-found,extract-social
+2026-10-05,Tejdarshan,https://facebook.com/tejmetta,not-found,extract-social
+2026-10-05,Satyajeet Chakma (Ven. Jinananda Thera),https://facebook.com/bhante12,not-found,extract-social
+2026-10-05,Pratibha Patil,https://facebook.com/pratibha,not-found,extract-social
+2026-10-05,DEEPA THAKUR,https://facebook.com/deepa.thakur,not-found,extract-social
+2026-10-05,Tsering Palden,https://facebook.com/khawa80,not-found,extract-social
+2026-10-05,Mrigendra Pratap,https://facebook.com/mrigendra.pratap.37,not-found,extract-social
+2026-10-05,Lopon Jurmay Karma,https://instagram.com/jurmay_karma,error,extract-social
+2026-10-05,Dorjeepa,https://instagram.com/dorjeepa_official,error,extract-social
+2026-10-05,Chhewang Dorjee,https://instagram.com/m.g.m_tsewang,error,extract-social
+2026-10-05,Tashi Takpa,https://instagram.com/spitimonktashi,error,extract-social
+2026-10-05,Bhuchung Kata (Kalsang Tashi),https://instagram.com/bhuchungkata,error,extract-social
+2026-10-05,Tashi Lhamo A,https://instagram.com/tashilamo,error,extract-social
+2026-10-05,Tashi Lhamo A,https://instagram.com/tashi,error,extract-social
+2026-10-05,Tanzin Dekit,https://instagram.com/munpa.rabsel,error,extract-social
+2026-10-05,Chhering Angmo,https://instagram.com/munpa.rabsel,error,extract-social
+2026-10-05,Rigzin Angmo,https://instagram.com/mundane.rabsel,error,extract-social
+2026-10-05,Tashi Lamo,https://instagram.com/munpa.rabsel,error,extract-social
+2026-10-05,Tenzin Phuljung,https://instagram.com/phuljung_,error,extract-social
+2026-10-05,Pranav Subhash Dandge,https://instagram.com/_buddhabhumi_,error,extract-social
+2026-10-05,Pranav Subhash Dandge,https://instagram.com/_monks_place_,error,extract-social
+2026-10-05,Yash Dixit,https://instagram.com/bhagwanji_,error,extract-social
+2026-10-05,Bharat nakwal,https://instagram.com/bharat_nakwal_world,error,extract-social
+2026-10-05,Gabriel Kobler,https://instagram.com/dharmadhara.de,error,extract-social
+2026-10-05,Aditi Patwari,https://instagram.com/mindfulgatheringsae,error,extract-social
+2026-10-05,Rahul Dongre,https://instagram.com/mr.rahuldongre,error,extract-social
+2026-10-05,Aachen Tenzin (Thupten),https://instagram.com/aachentenzin,error,extract-social
+2026-10-05,Path of Liberation [ Norbu Tsering,https://instagram.com/path.of_liberation,error,extract-social
+2026-10-05,Yeshi Dorjee (khoe) Jinsel,https://instagram.com/iam_jinsel,error,extract-social
+2026-10-05,Uttam Shetty (Nagaloka Center Nagpur),https://instagram.com/nagalokacenter,error,extract-social
+2026-10-05,Ranjeet Shrawan Thool (Dhammachari Aryaketu),https://instagram.com/aryaketu,error,extract-social
+2026-10-05,Tejdarshan,https://instagram.com/tejdarshan,error,extract-social
+2026-10-05,Rajat Mourya,https://instagram.com/therajatmourya,error,extract-social
+2026-10-05,Pema Yonten,https://instagram.com/pema.yonten.942,error,extract-social
+2026-10-05,Sherab Wangmo,https://instagram.com/lukzifilms,error,extract-social
+2026-10-05,Stanzin Namtol,https://instagram.com/stanzinnamtol,error,extract-social
+2026-10-05,Stanzin Lotos,https://instagram.com/tselopa13,error,extract-social
+2026-10-05,SANTOSH SAKHARAM AMBHORE,https://instagram.com/_dasturkhudda_,error,extract-social
+2026-10-05,Ganesh Palshikar (Guhyaprakash),https://instagram.com/palshikarg,error,extract-social
+2026-10-05,Jigme Wangmo,https://instagram.com/jikgmewang,not-found,extract-social
+2026-10-05,Pema Lhaden,https://instagram.com/palnadidas,not-found,extract-social
+2026-10-05,Dorje kalzang,https://instagram.com/dkboss0301,not-found,extract-social
+2026-10-05,tenpunlama (Tenzin Phuntsok),https://instagram.com/silent.path_108,private,extract-social
+2026-10-05,Ho Vu Dieu Tuyen,https://instagram.com/peacein.diutiens.soul,not-found,extract-social
+2026-10-05,Gunturi Agni Mithra,https://instagram.com/ft.agni_,private,extract-social
+2026-10-05,Kelzang Wangdi,https://instagram.com/kelsangwangs,not-found,extract-social
+2026-10-05,Sonam Choden,https://instagram.com/sonam_128282,private,extract-social
+2026-10-05,Kunzes Dolma,https://instagram.com/buddhist_girl_from_paddar,not-found,extract-social
+2026-10-05,Penpa Tsering,https://instagram.com/idieformynation,private,extract-social
+2026-10-05,Gyalpo Tashi,https://instagram.com/gyalphur_tashi,private,extract-social
+2026-10-05,Sagar Gautam,https://instagram.com/sagar_bhuian787,not-found,extract-social
+2026-10-05,Tenzin Lekmay,https://instagram.com/tenmoen,not-found,extract-social
+2026-10-05,Tenzin Lekmay,https://instagram.com/moenmediahouse,not-found,extract-social
+2026-10-05,Rigzin Angmo,https://instagram.com/mundane.rabsel,not-found,extract-social
+2026-10-05,Tenzin Phuljung,https://instagram.com/phuljung_,not-found,extract-social
+2026-10-05,Pranav Subhash Dandge,https://instagram.com/_monks_place_,not-found,extract-social
+2026-10-05,Tejdarshan,https://instagram.com/tejdarshan,private,extract-social
+2026-10-05,Stanzin Lotos,https://instagram.com/tselopa13,not-found,extract-social
+2026-10-05,Ganesh Palshikar (Guhyaprakash),https://instagram.com/palshikarg,not-found,extract-social

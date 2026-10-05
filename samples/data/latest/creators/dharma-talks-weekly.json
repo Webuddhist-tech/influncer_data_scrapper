@@ -1,0 +1,101 @@
+{
+  "avatar": null,
+  "bio": "Weekly dharma talks on practical Buddhist practice.",
+  "confidence": "high",
+  "history": [
+    {
+      "score": 68.6,
+      "week": "2026-08-31"
+    },
+    {
+      "score": 71.8,
+      "week": "2026-09-07"
+    },
+    {
+      "score": 71.9,
+      "week": "2026-09-14"
+    },
+    {
+      "score": 72.0,
+      "week": "2026-09-21"
+    },
+    {
+      "score": 72.1,
+      "week": "2026-09-28"
+    }
+  ],
+  "language": "en",
+  "metrics": {
+    "engagement_rate": [
+      0.0628,
+      null
+    ],
+    "follower_growth": [
+      0.0254,
+      null
+    ],
+    "posts_per_week": [
+      0.16,
+      null
+    ]
+  },
+  "missing_modules": [],
+  "modules": {
+    "activity": 5.2,
+    "breadth": 72.0,
+    "engagement": 100.0,
+    "growth": 100.0,
+    "reach": 78.4
+  },
+  "name": "Dharma Talks Weekly",
+  "platforms": {
+    "x": {
+      "carried_over": false,
+      "engagement_rate": 0.0628,
+      "followers": 5200,
+      "followers_source": "socialcrawl",
+      "handle": "dharmatalks",
+      "posts_90d": 2,
+      "profile_url": "https://x.com/dharmatalks",
+      "verified": null
+    },
+    "youtube": {
+      "carried_over": false,
+      "engagement_rate": null,
+      "followers": 45200,
+      "followers_source": "youtube_api",
+      "handle": "@dharmatalks",
+      "posts_90d": 0,
+      "profile_url": "https://youtube.com/@dharmatalks",
+      "verified": null
+    }
+  },
+  "posts": [
+    {
+      "comments": 12,
+      "likes": 180,
+      "platform": "x",
+      "published_at": "2026-09-24T09:00:00Z",
+      "shares": 9,
+      "thumbnail_url": null,
+      "title": "A short reflection on impermanence.",
+      "type": "text",
+      "url": "https://x.com/dharmatalks/status/2",
+      "views": 3200
+    },
+    {
+      "comments": 12,
+      "likes": 180,
+      "platform": "x",
+      "published_at": "2026-09-23T09:00:00Z",
+      "shares": 9,
+      "thumbnail_url": null,
+      "title": "A short reflection on impermanence.",
+      "type": "text",
+      "url": "https://x.com/dharmatalks/status/1",
+      "views": 3200
+    }
+  ],
+  "slug": "dharma-talks-weekly",
+  "week": "2026-09-28"
+}

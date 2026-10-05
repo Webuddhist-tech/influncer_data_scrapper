@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Section 7/8: gzipped raw archives go to a workflow artifact, never a
+# commit; the public export is a build output whose real destination is the
+# Webuddhist-tech/influencer-data repo, not this one.
+data/raw/*.tar.gz
+export/public/
+
 # C extensions
 *.so
 

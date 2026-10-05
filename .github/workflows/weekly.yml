@@ -1,0 +1,170 @@
+# Weekly ranking run (brief section 8).
+#
+# Corrected from the previous version of this workflow, which checked out
+# Webuddhist-tech/influencer-data and ran the *entire* pipeline against it
+# with --data-root data-repo/data -- meaning creator_profiles.csv, raw
+# snapshots and every internal flag were being pushed straight into the
+# public site repo with no filtering at all. Section 2's new rule ("anything
+# leaving the private repo must go through the export allowlist") makes that
+# a bug, not just an inconsistency: data/ now lives and is committed in
+# *this* repo, and only export/public/ (built by `export-public`, allowlisted
+# fields only) is pushed to the site repo's data/latest/.
+#
+# Setup required (this repo's Settings > Secrets and variables > Actions):
+#   1. SITE_REPO_TOKEN — a fine-grained PAT scoped to just
+#      Webuddhist-tech/influencer-data with Contents: Read and write.
+#   2. SOCIALCRAWL_API_KEY, YOUTUBE_API_KEY, and the Facebook/Instagram
+#      Graph API credentials this repo's extractors read from the
+#      environment (see README "Configuration").
+#   3. CREATOR_SHEET_CSV_URL — the roster Google Sheet's CSV export URL
+#      (README "Creator roster source" has the exact steps, including the
+#      Google Form that feeds it). Falls back to a committed creators.xlsx
+#      at this repo's root if unset.
+#
+# Every run does a full `extract-links`, not just `validate-links` -- each
+# Linktree page is cached for 14 days (page_cache.py), so re-scraping the
+# *whole* sheet every week is cheap, and a creator added to the sheet this
+# week is never more than a week away from showing up. Set "refresh" to
+# bypass the cache and force a real re-fetch of every page -- useful if a
+# creator's Linktree changed recently enough that the cache hasn't noticed
+# yet.
+#
+# Re-running a week is safe and gives the same files (section 8) -- the
+# only exception is a *past* week, which refuses to be overwritten unless
+# "rebuild" is set.
+
+name: Weekly Ranking Run
+
+on:
+  schedule:
+    - cron: "0 2 * * 1" # Monday 02:00 UTC (section 8)
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: "Bypass the 14-day page cache and re-fetch every Linktree page"
+        type: boolean
+        default: false
+      week:
+        description: "Override the week label (YYYY-MM-DD); leave blank for the current week"
+        type: string
+        default: ""
+      rebuild:
+        description: "Allow overwriting a past week's history"
+        type: boolean
+        default: false
+      push:
+        description: "Push results (both this repo's data/ and the site repo)"
+        type: boolean
+        default: true
+
+env:
+  SITE_REPO: "Webuddhist-tech/influencer-data"
+
+concurrency: weekly
+
+jobs:
+  run-weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install package
+        run: pip install .
+
+      - name: Configure git identity for data commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run weekly pipeline
+        id: weekly
+        env:
+          SOCIALCRAWL_API_KEY: ${{ secrets.SOCIALCRAWL_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          CREATOR_SHEET_CSV_URL: ${{ secrets.CREATOR_SHEET_CSV_URL }}
+        run: |
+          set -e
+          ARGS=()
+          if [ -z "$CREATOR_SHEET_CSV_URL" ]; then
+            ARGS+=(--input creators.xlsx)
+          fi
+          if [ "${{ inputs.refresh }}" = "true" ]; then
+            ARGS+=(--refresh)
+          fi
+          if [ -n "${{ inputs.week }}" ]; then
+            ARGS+=(--week "${{ inputs.week }}")
+          fi
+          if [ "${{ inputs.rebuild }}" = "true" ]; then
+            ARGS+=(--rebuild)
+          fi
+          if [ "${{ inputs.push }}" = "false" ]; then
+            ARGS+=(--no-push)
+          fi
+          social-media-ranking run-weekly "${ARGS[@]}"
+          WEEK="${{ inputs.week }}"
+          if [ -z "$WEEK" ]; then
+            WEEK=$(python3 -c "from social_media_ranking.storage import week_label; print(week_label())")
+          fi
+          echo "week=$WEEK" >> "$GITHUB_OUTPUT"
+
+      - name: Archive raw API responses
+        if: always()
+        run: |
+          if [ -d data/raw ]; then
+            tar -czf "data-raw-${{ steps.weekly.outputs.week }}.tar.gz" -C data raw
+          else
+            echo "no data/raw yet -- nothing to archive"
+            tar -czf "data-raw-${{ steps.weekly.outputs.week }}.tar.gz" --files-from /dev/null
+          fi
+
+      - name: Upload raw archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-${{ steps.weekly.outputs.week }}
+          path: data-raw-${{ steps.weekly.outputs.week }}.tar.gz
+          retention-days: 90
+
+      # The run-weekly step above already committed data/ to this repo
+      # (git_publish, section 8's "commit data as github-actions[bot]"). What
+      # follows only republishes the allowlisted export/public/ output into
+      # the public site repo -- run-weekly exits non-zero and skips the
+      # commit entirely when >30% of accounts were unresolved, which also
+      # stops this job here (section 8's publish guard).
+
+      - name: Checkout the public site repo
+        if: inputs.push != 'false'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SITE_REPO }}
+          token: ${{ secrets.SITE_REPO_TOKEN }}
+          path: site-repo
+
+      - name: Replace data/latest/ with this week's export
+        if: inputs.push != 'false'
+        run: |
+          set -e
+          rm -rf site-repo/data/latest
+          mkdir -p site-repo/data
+          cp -r export/public site-repo/data/latest
+
+      - name: Commit and push the public site repo
+        if: inputs.push != 'false'
+        working-directory: site-repo
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/latest
+          if git diff --cached --quiet; then
+            echo "no public export changes to publish"
+            exit 0
+          fi
+          git commit -m "data: week ${{ steps.weekly.outputs.week }}"
+          git push

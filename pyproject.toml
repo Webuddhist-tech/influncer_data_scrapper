@@ -3,18 +3,23 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "project_name"
-version = "0.0.1"
+name = "social-media-ranking"
+version = "0.1.0"
 authors = [
   { name="OpenPecha", email="dev@openpecha.org" },
 ]
-description = "A small example package"
+description = "Weekly social media ranking pipeline: extract creator links, pull platform metrics, score, and publish to a GitHub data repo"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.28",
+    "beautifulsoup4>=4.11",
+    "openpyxl>=3.1",
 ]
 
 [project.optional-dependencies]
@@ -24,7 +29,12 @@ dev = [
     "pre-commit",
 ]
 
+[project.scripts]
+social-media-ranking = "social_media_ranking.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [project.urls]
-"Homepage" = "https://github.com/OpenPecha/openpecha-project-template"
-"Bug Tracker" = "https://github.com/OpenPecha/openpecha-project-template/issues"
+"Homepage" = "https://github.com/Webuddhist-tech/influncer_data_scrapper"
+"Bug Tracker" = "https://github.com/Webuddhist-tech/influncer_data_scrapper/issues"

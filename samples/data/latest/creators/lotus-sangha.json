@@ -1,0 +1,113 @@
+{
+  "avatar": null,
+  "bio": "Daily dharma talks and guided meditation from the Lotus Sangha community.",
+  "confidence": "high",
+  "history": [
+    {
+      "score": 78.0,
+      "week": "2026-08-31"
+    },
+    {
+      "score": 77.7,
+      "week": "2026-09-07"
+    },
+    {
+      "score": 76.5,
+      "week": "2026-09-14"
+    },
+    {
+      "score": 76.3,
+      "week": "2026-09-21"
+    },
+    {
+      "score": 75.9,
+      "week": "2026-09-28"
+    }
+  ],
+  "language": "en",
+  "metrics": {
+    "engagement_rate": [
+      0.0857,
+      null
+    ],
+    "follower_growth": [
+      0.003,
+      null
+    ],
+    "posts_per_week": [
+      0.23,
+      null
+    ]
+  },
+  "missing_modules": [],
+  "modules": {
+    "activity": 7.8,
+    "breadth": 72.0,
+    "engagement": 100.0,
+    "growth": 57.6,
+    "reach": 100.0
+  },
+  "name": "Lotus Sangha Live",
+  "platforms": {
+    "instagram": {
+      "carried_over": false,
+      "engagement_rate": null,
+      "followers": 710000,
+      "followers_source": "socialcrawl",
+      "handle": "lotussangha",
+      "posts_90d": 0,
+      "profile_url": "https://instagram.com/lotussangha",
+      "verified": null
+    },
+    "youtube": {
+      "carried_over": false,
+      "engagement_rate": 0.0857,
+      "followers": 610000,
+      "followers_source": "youtube_api",
+      "handle": "@lotussangha",
+      "posts_90d": 3,
+      "profile_url": "https://youtube.com/@lotussangha",
+      "verified": null
+    }
+  },
+  "posts": [
+    {
+      "comments": 216,
+      "likes": 4900,
+      "platform": "youtube",
+      "published_at": "2026-09-23T14:00:00Z",
+      "shares": null,
+      "thumbnail_url": "https://i.ytimg.com/vi/vid3/hqdefault.jpg",
+      "title": "Guided meditation session 3",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=vid3",
+      "views": 59900
+    },
+    {
+      "comments": 221,
+      "likes": 5000,
+      "platform": "youtube",
+      "published_at": "2026-09-22T14:00:00Z",
+      "shares": null,
+      "thumbnail_url": "https://i.ytimg.com/vi/vid2/hqdefault.jpg",
+      "title": "Guided meditation session 2",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=vid2",
+      "views": 60900
+    },
+    {
+      "comments": 226,
+      "likes": 5100,
+      "platform": "youtube",
+      "published_at": "2026-09-21T14:00:00Z",
+      "shares": null,
+      "thumbnail_url": "https://i.ytimg.com/vi/vid1/hqdefault.jpg",
+      "title": "Guided meditation session 1",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=vid1",
+      "views": 61900
+    }
+  ],
+  "slug": "lotus-sangha",
+  "week": "2026-09-28"
+}

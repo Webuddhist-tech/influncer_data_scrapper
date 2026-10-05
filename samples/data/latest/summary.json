@@ -1,0 +1,78 @@
+{
+  "creators": [
+    {
+      "avatar": null,
+      "carried_over": [],
+      "confidence": "high",
+      "follower_growth": 0.003,
+      "followers": 1320000,
+      "language": "en",
+      "name": "Lotus Sangha Live",
+      "platforms": [
+        "instagram",
+        "youtube"
+      ],
+      "scores": {
+        "all": [
+          76.9,
+          77.1
+        ],
+        "month": [
+          76.6,
+          78.0
+        ],
+        "week": [
+          75.9,
+          76.3
+        ]
+      },
+      "slug": "lotus-sangha"
+    },
+    {
+      "avatar": null,
+      "carried_over": [],
+      "confidence": "high",
+      "follower_growth": 0.0254,
+      "followers": 50400,
+      "language": "en",
+      "name": "Dharma Talks Weekly",
+      "platforms": [
+        "x",
+        "youtube"
+      ],
+      "scores": {
+        "all": [
+          71.3,
+          71.1
+        ],
+        "month": [
+          72.0,
+          68.6
+        ],
+        "week": [
+          72.1,
+          72.0
+        ]
+      },
+      "slug": "dharma-talks-weekly"
+    }
+  ],
+  "generated_at": "2026-10-05T03:29:42+00:00",
+  "platforms": [
+    "youtube",
+    "instagram",
+    "facebook",
+    "tiktok",
+    "threads",
+    "x",
+    "linkedin"
+  ],
+  "week": "2026-09-28",
+  "weights": {
+    "activity": 20,
+    "breadth": 5,
+    "engagement": 30,
+    "growth": 10,
+    "reach": 35
+  }
+}
