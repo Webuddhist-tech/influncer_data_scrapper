@@ -1,4 +1,4 @@
-"""Section 7 — public export: confirmed-only, allowlist, no-contacts, atomic write."""
+"""Section 7 — public export: everyone listed, allowlist, no-contacts, atomic write."""
 from __future__ import annotations
 
 import json
@@ -39,13 +39,17 @@ def _seed_week(repo: DataRepo, week: str, followers: int = 50_000):
     write_csv(repo.raw_file("instagram", week), [record.to_row()], list(record.to_row().keys()))
 
 
-def test_unconfirmed_creators_are_excluded(tmp_path):
+def test_unconfirmed_creators_are_exported_without_their_status(tmp_path):
     repo = DataRepo(tmp_path / "data")
     _seed_week(repo, "2026-09-07")
-    profiles = [_confirmed_profile(confirmation="Pending")]
+    profiles = [_confirmed_profile(confirmation="Waiting for scholarship")]
     scores = score_week(repo, profiles, "2026-09-07")
     export = build_export(repo, profiles, scores, week="2026-09-07", download_avatars=False)
-    assert export["summary"]["creators"] == []
+
+    assert len(export["summary"]["creators"]) == 1
+    # Confirmation status never reaches the public export, in any form.
+    text = json.dumps(export).lower()
+    assert "confirm" not in text and "scholarship" not in text
 
 
 def test_confirmed_creator_with_resolved_account_is_exported(tmp_path):
@@ -135,6 +139,14 @@ def test_scan_for_contacts_flags_email_and_whatsapp():
 def test_scan_for_contacts_flags_phone_numbers_but_not_dates():
     assert scan_for_contacts({"bio": "call +1 555-123-4567 anytime"})
     assert scan_for_contacts({"week": "2026-09-07", "generated_at": "2026-09-07T02:00:00Z"}) == []
+
+
+def test_scan_allows_numeric_facebook_ids_only_on_facebook_accounts():
+    fb = {"handle": "100092758102697", "profile_url": "https://facebook.com/100092758102697"}
+    assert scan_for_contacts({"c": {"platforms": {"facebook": fb}}}) == []
+    # The same digits anywhere else still count as a phone number.
+    assert scan_for_contacts({"c": {"platforms": {"instagram": fb}}})
+    assert scan_for_contacts({"c": {"bio": "100092758102697"}})
 
 
 def test_write_export_refuses_to_write_when_contacts_leak(tmp_path):

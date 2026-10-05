@@ -5,8 +5,8 @@ snapshot, overrides.json's bio/avatar_url) — nothing from the roster sheet,
 email, WhatsApp, or notes ever reaches this module, which is itself the
 allowlist the brief asks for.
 
-Only ``confirmation == "Confirmed"`` creators are included (section 3), and
-only once ``weekly_score.score_week`` has already run for this week (its
+Every scored creator is included, confirmed or not. Confirmation status
+itself never leaves this repo. Runs only once ``weekly_score.score_week`` has already run for this week (its
 ``CreatorWeekScore`` results are passed in, not recomputed here).
 """
 from __future__ import annotations
@@ -21,7 +21,7 @@ from typing import Any, Dict, List, Optional, Sequence
 
 from .config import PLATFORMS
 from .http import HttpClient
-from .models import CONFIRMATION_CONFIRMED, RESOLUTION_OK, CreatorProfile
+from .models import RESOLUTION_OK, CreatorProfile
 from .module_scoring import MODULE_WEIGHTS, CreatorWeekScore, compute_periods
 from .overrides import load_overrides
 from .posts_cache import load_posts, parse_timestamp
@@ -40,6 +40,13 @@ _WA_LINK = re.compile(r"wa\.me|whatsapp", re.IGNORECASE)
 # A date/timestamp like "2026-09-07" or "2026-09-07T02:00:00Z" reads as a
 # long digit run too -- don't let the phone check flag our own week labels.
 _ISO_DATE_OR_DATETIME = re.compile(r"^\d{4}-\d{2}-\d{2}([T ]\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[+-]\d{2}:?\d{2})?)?$")
+# Facebook profiles without a username are addressed by a numeric user ID
+# (e.g. facebook.com/100092758102697), which reads as a long digit run. Only
+# exempted for a Facebook account's own handle/profile_url, nowhere else.
+_FACEBOOK_NUMERIC_ID = re.compile(
+    r"^(https?://(www\.|m\.)?facebook\.com/(profile\.php\?id=)?)?\d{14,17}/?$", re.IGNORECASE
+)
+_FACEBOOK_ID_PATH = re.compile(r"\.platforms\.facebook\.(handle|profile_url)$")
 
 
 def _looks_like_phone(value: str) -> bool:
@@ -161,15 +168,12 @@ def build_export(
     creator_pages: Dict[str, Dict[str, Any]] = {}
 
     for creator_name, rows in by_creator.items():
-        confirmation = next((r.confirmation for r in rows if r.confirmation), "")
-        if confirmation != CONFIRMATION_CONFIRMED:
-            continue
         result = scores.get(creator_name)
         if result is None or result.total_score is None:
             continue  # not resolved/carried anywhere, or nothing scoreable this week
         slug = next((r.slug for r in rows if r.slug), "")
         if not slug:
-            log.warning("skipping %s: confirmed but has no slug yet (run validate-links first)", creator_name)
+            log.warning("skipping %s: no slug yet (run validate-links first)", creator_name)
             continue
 
         history_rows = _dedupe_by_platform(
@@ -289,7 +293,8 @@ def scan_for_contacts(payload: Any, path: str = "$") -> List[str]:
             violations.append(f"{path}: email-like string")
         if _WA_LINK.search(payload):
             violations.append(f"{path}: whatsapp reference")
-        if _looks_like_phone(payload):
+        is_facebook_id = _FACEBOOK_ID_PATH.search(path) and _FACEBOOK_NUMERIC_ID.match(payload)
+        if _looks_like_phone(payload) and not is_facebook_id:
             violations.append(f"{path}: phone-like string")
     return violations
 

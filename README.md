@@ -32,8 +32,9 @@ this repo's existing CSV-per-stage design. The notable choices:
   `creator_name`. `data/creator_profiles.csv` is still fully generated and
   rewritten every run — never hand-edit it.
 - **`confirmation`** is an optional sheet column (`confirmation`/`status`),
-  defaulting to `Pending` when absent, overridable in `overrides.json`. Only
-  `Confirmed` creators reach the public export; everyone is still scored.
+  defaulting to `Pending` when absent, overridable in `overrides.json`. Every
+  scored creator reaches the public export, confirmed or not; confirmation
+  status itself never leaves this repo.
 - **The SocialCrawl integration was corrected, not just extended.** The code
   already in this repo assumed a `POST /profiles/batch` multi-account
   endpoint that doesn't exist on the real API (`www.socialcrawl.dev`, not
@@ -282,7 +283,7 @@ shorteners, slash/case normalization, non-social ignores, and empty pages
 API and YouTube's post pagination/duration parsing. `test_module_scoring.py`
 covers each module's scale/clamp, re-weighting, confidence, carry-over
 cutoff, and period math. `test_export_public.py` covers the
-confirmed-only/no-slug/atomic-write behavior and the no-contacts scan.
+everyone-listed/no-slug/atomic-write behavior and the no-contacts scan.
 `test_overrides.py` covers slug derivation, uniqueness, and override
 precedence.
 

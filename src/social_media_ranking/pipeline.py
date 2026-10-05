@@ -273,7 +273,7 @@ def stage_export_public(
 ) -> Path:
     export = build_export(repo, all_profiles, scores, week=stamp)
     dest = write_export(export, repo, generated_at=utc_now())
-    log.info("exported %d confirmed creators to %s", len(export["summary"]["creators"]), dest)
+    log.info("exported %d creators to %s", len(export["summary"]["creators"]), dest)
     return dest
 
 
